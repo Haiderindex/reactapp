@@ -1,0 +1,407 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+  :root{
+    --primary-text-color: #FF0000;
+    --secondary-text-color: #FFFFFF;
+    --padding-inline-section: 20px;
+  }
+
+  body{
+    font-family: 'poppins' , 'sans-serif' ;
+    color: var(--primary-text-color);
+
+  }
+
+  h1{
+    font-size: 3rem;
+    font-family: 100px;
+    
+  }
+
+  h2{
+    font-size: 1.5rem;
+    font-family: 100px;
+  }
+
+  p{
+      font-family: 'roboto' , 'sans-sarif';
+      font-size: 1.25rem;
+      color: var(--secondary-text-color);
+      line-height: 1.8rem;
+  }
+
+  a{
+    text-decoration: none;
+    display: inline;
+  }
+
+
+
+  /* utility section */
+
+  .small-bold-text{
+    font-size: 0.5rem;
+    font-weight: 200;
+  }
+
+
+  .container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+   overflow: hidden;
+  }
+
+
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+
+
+    /* top banner  */
+
+    .top-banner{
+      background-color: orangered;
+    }
+
+     .small-bold-img img {
+       width: 90%;
+       height: 50px;
+     }
+
+    .small-bold{
+        justify-content: center;
+        padding-top: 40px;
+        gap: 10px;
+    }
+
+    .small-bold-text h1{
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        font-family: 100;
+    }
+
+
+    /* hero section  */
+
+    .hero-section{
+        background-color: orangered;
+        height: 700px;
+        gap: 120px;
+    }
+
+    .hero-text{
+        padding-bottom: 120px;
+    }
+      
+
+    .hero-text h1 {
+        color: #FFFFFF;
+    }
+ 
+    .hero-text p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btn{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 0.5rem;
+        border-color: #FFFFFF;
+        color: orangered;
+    }
+
+     /* .btn-left{
+          padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 0.5rem;
+        border-color: #FFFFFF;
+        color: black;
+        
+     }
+      
+       .btn-right{
+          padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 0.5rem;
+        border-color: #FFFFFF;
+        color: black;
+       
+     } */
+
+
+    .hero-img img{
+        width: 400px;
+        height: 850px;
+        padding-top: 170px;
+    }
+
+
+    /* feature section  */
+   
+     .feature-text {
+       padding-top: 120px;
+     }
+
+     .feature-text h1{
+        font-size: 2.5rem;
+        padding-left: 200px;
+        color: black;
+     }
+
+     .feature-text-2 p{
+        color: black;
+        padding-left: 370px;
+      
+     }
+    
+     .feature-area{
+       flex-wrap: wrap;
+       justify-content: space-between;
+       gap: 20px;
+       margin-top: 60px;
+      
+      }
+
+   .feature-card{
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    background-color: rgb(227, 217, 217);
+    border-radius: 0.6rem;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* box-shadow: 2.3rem; */
+   }
+
+     .feature-card h3{
+        color: black;
+        padding-top: 20px;
+     }
+
+     .feature-card p{
+      color: black;
+      padding-top: 20px;
+      /* align-items: center; */
+     }
+
+
+     /* connection sectio  */
+
+
+     
+
+      .connection-img img {
+        width: 595px;
+        height: 611px;
+        
+      }
+
+      .connection-img{
+        padding-top: 60px;
+      }
+
+      .connection-text h1{
+         color: black;
+         
+      }
+
+      .connection-text p{
+        color: black;
+      }
+
+      .connection-card{
+        background-color: rgb(228, 239, 239);
+        padding-top: 5px;
+      }
+
+
+      .connection-card h3{
+          color: black;
+          padding-top: 30px;
+      }
+
+      .connection-card p{
+        color: black;
+      }
+
+      /* app section  */
+
+    
+   /* .app-top-section{
+    padding-left: 300px;
+   } */
+
+
+      .app-top-section h1{
+        color: black;
+        padding-left: 350px;
+      }
+       
+      .app-top-section p{
+        color: black;
+        padding-left: 200px;
+        padding-top: 30px;
+      }
+
+      .app-number h2{
+        color: black;
+      }
+
+    .app-number {
+        gap: 50px;
+        padding-left: 100px;
+        padding-top: 30px;
+      }
+     
+       .app-cards{
+        gap: 120px;
+        padding-top: 50px;
+        padding-left: 30px;
+        background-color: aliceblue;
+        border-radius: 0.6rem;
+       }
+
+      .app-card h4{
+          color: black;
+          text-align: center;
+      }
+
+      .app-card p{
+        color: black;
+      }
+    
+
+      /* text section  */
+
+    .reason-section{
+      background-color: orangered;
+      margin-top: 100px;
+    }
+
+    
+    .reason-text-section{
+      padding-bottom: 150px;
+    }
+
+      .reason-text-section h1{
+         color: white;
+         /* padding-bottom: 100px; */
+      }
+
+      .reason-text-section p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .reason-img1-section img {
+        /* padding-left: 200px; */
+        width: 250px;
+        padding-top: 300px;
+      }
+
+      .reason-img2-section img{
+        width: 250px;
+        padding-top: 150px;
+      }
+
+
+      /* User section  */
+
+    .user-section h1{
+        color: black;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+     .user-section button{
+          margin-left: 500px;
+          margin-top: 30px;
+     }
+
+
+    .user-area-section{
+         flex-wrap: wrap;
+       justify-content: space-between;
+       gap: 40px;
+       margin-top: 60px;
+       text-align: start;
+    }
+
+
+
+     .user-card-section{
+       flex-direction: row;
+      width: 30%;
+      align-items: center;
+      background-color: rgb(227, 217, 217);
+    border-radius: 0.6rem;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px
+     }
+
+
+      .user-card-section h5{
+        color: orange;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+
+      .user-card-section p{
+        color: black;
+      }
+
+      .user-card-section h6{
+        color: black;
+        padding-top: 20px;
+      }
+
+
+      /* Download section  */
+
+      .download-section{
+        background-color: orangered;
+        margin-top: 100px;
+      }
+
+      .download-text{
+        padding-top: 30px;
+      }
+
+      .download-text h1{
+        color: white;
+        padding-bottom: 20px;
+      }
+
+      .download-text p{
+        padding-bottom: 20px;
+      }
+
+      .download-img1 img{
+         width: 300px;
+         padding-top: 200px;
+      }
+
+      .download-img2 img{
+        width: 300px;
+        padding-top: 50px;
+        padding-left: 40px;
+      }
